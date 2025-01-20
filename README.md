@@ -3,13 +3,13 @@
 This is a simple Express.js application that serves static HTML pages. The app has routes for the home page (`/`), contact page (`/contact`), about page (`/about`), and a fallback for any non-existing routes (`*`).
 
 
-| ![Image 1](https://via.placeholder.com/200) | ![Image 2](https://via.placeholder.com/200) |
+| ![Image 1](ss01.png) | ![Image 2](ss02.png) |
 | ------------------------------------------ | ------------------------------------------ |
-| Image 1 description                        | Image 2 description                        |
+| Image 1 Home Page                        | Image 2 Contact Page                        |
 
-| ![Image 3](https://via.placeholder.com/200) | ![Image 4](https://via.placeholder.com/200) |
+| ![Image 3](ss03.png) | ![Image 4](ss.04.png) |
 | ------------------------------------------ | ------------------------------------------ |
-| Image 3 description                        | Image 4 description                        |
+| Image 3 About Page                        | Image 4 Error Page                        |
 
 
 ---
