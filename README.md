@@ -7,7 +7,7 @@ This is a simple Express.js application that serves static HTML pages. The app h
 | ------------------------------------------ | ------------------------------------------ |
 | Image 1 Home Page                        | Image 2 Contact Page                        |
 
-| ![Image 3](ss03.png) | ![Image 4](ss.04.png) |
+| ![Image 3](ss03.png) | ![Image 4](ss04.png) |
 | ------------------------------------------ | ------------------------------------------ |
 | Image 3 About Page                        | Image 4 Error Page                        |
 
