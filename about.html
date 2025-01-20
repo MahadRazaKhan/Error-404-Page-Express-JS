@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: black;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 700px;
+            line-height: 1.6;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .team-member h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ff5252;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            margin-top: 40px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff7979;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .team {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .team-member {
+                width: 100%;
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>We are a passionate team committed to providing the best services and experiences for our clients. Our mission is to innovate, inspire, and create solutions that make a real difference in the world.</p>
+    
+    <div class="team">
+        <div class="team-member">
+            <!-- <img src="https://via.placeholder.com/100" alt="Team Member"> -->
+            <h3>John Doe</h3>
+            <p>CEO & Founder</p>
+        </div>
+        <div class="team-member">
+            <!-- <img src="https://via.placeholder.com/100" alt="Team Member"> -->
+            <h3>Jane Smith</h3>
+            <p>Chief Designer</p>
+        </div>
+        <div class="team-member">
+            <!-- <img src="https://via.placeholder.com/100" alt="Team Member"> -->
+            <h3>James Brown</h3>
+            <p>Lead Developer</p>
+        </div>
+    </div>
+    
+    <a href="#" class="cta-button">Join Our Team</a>
+</body>
+</html>
