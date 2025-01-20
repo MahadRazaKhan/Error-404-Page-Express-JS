@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: black;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .error-code {
+      font-size: 8rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .error-message {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .home-button {
+      display: inline-block;
+      background: #ff5252;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .home-button:hover {
+      background: #ff7979;
+      transform: translateY(-3px);
+    }
+
+    /* Keyframes for fade-in effect */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="error-code">404</h1>
+    <h2 class="error-message">Oops! Page Not Found</h2>
+    <p class="description">The page you're looking for doesn't exist or has been moved.</p>
+    <a href="/" class="home-button">Go Back Home</a>
+  </div>
+</body>
+</html>
